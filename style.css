@@ -9,7 +9,7 @@ body {
   }
   
   .page {
-    width: 600px;
+    width: 1005px;
     margin: 0 auto;
     padding-top: 65px;
   }
@@ -57,34 +57,46 @@ ul{
     width: 490px;
   }
   
+main {
+  display: flex;
+  justify-content: space-between;
+  width: 1005px;
+}
+
   h1 span {
     color: #89c5cc;
     font-weight: bold;
   }
   
+
+
   section p {
     font-size: 14px;
     line-height: 28px;
     color: #7d7987;
-  
+    width: 489px;
     margin: 40px 0;
   }
   
   button {
     color: white;
     font-family: "Open Sans", sans-serif;
-  
+    size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
     background: #69B99D;
     border: 0;
-    padding: 0 50px 30px;
-  
-    display: flex;
-    justify-content: space-around;
-    gap: 50px;
-  
     border-radius: 4px;
-  
+    display: flex;
+    align-items: center;
+    padding: 10px;
     cursor: pointer;
+    width: 182px;
+    height: 56px;
+    justify-content: center;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    gap: 5px;
   }
   
   button:hover {
